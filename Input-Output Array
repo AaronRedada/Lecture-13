@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+    int input[5];
+
+    cout << "Input 5 numbers to be displayed" << endl;
+
+    for (int y = 0; y < 5; y++) {
+        cout << "Input the number" << endl;
+        cin >> input[y];
+    }
+
+    for (auto disp : input) {
+        cout << "Here are your Inputs" << endl;
+        cout << input << endl;
+    }
+
+
+}
